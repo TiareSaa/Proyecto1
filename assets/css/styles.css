@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+i{
+    color: palevioletred;
+}
+
+h5{
+    color: blueviolet;
+}
+
+p{
+    color:palevioletred
+}
+
+a{
+    color: palevioletred;
+}
+
+a:hover{
+    color:rgb(148, 0, 86)
+}
+
+li{
+    color:palevioletred
+}
+
+footer{
+    background-color: rgb(37, 0, 71);
+}
+
+.navbar{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color:rgb(37, 0, 71) !important;
+}
+
+.navbar-nav .nav-link {
+    color: blueviolet !important;
+}
+
+.navbar-brand{
+    color: palevioletred;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.sep{
+    margin-left: 2rem;
+}
+
