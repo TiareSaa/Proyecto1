@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,26 +9,26 @@
   </head>
 <body>
 
+  <!--navbar-->
+
     <nav class="navbar navbar-expand-lg" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MegaGames</a>
+          <a href="http://127.0.0.1:5500/index.html"
+          class="navbar-brand" href="#">MegaGames</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio
+                <a href="http://127.0.0.1:5500/index.html"
+                class="nav-link active" href="#">Inicio
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tienda</a>
                 <a href= "http://127.0.0.1:5500/tienda.html"
                 class="nav-link" href="#">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Asistencia</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Ofertas</a>
@@ -37,13 +36,12 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Casuales</a>
-                  <a class="dropdown-item" href="#">Terror</a>
-                  <a class="dropdown-item" href="#">Fantasia</a>
-                  <a class="dropdown-item" href="#">Deportes</a>
-                  <a class="dropdown-item" href="#">Disparos</a>
-                  <a class="dropdown-item" href="#">Fantasia</a>
-                  <a class="dropdown-item" href="#">Cartas</a>
+                  <a href="http://127.0.0.1:5500/terror.html"
+                  class="dropdown-item" href="#">Terror</a>
+                  <a href="http://127.0.0.1:5500/shooter.html"
+                  class="dropdown-item" href="#">Shooter</a>
+                  <a href="http://127.0.0.1:5500/fantasia.html" 
+                  class="dropdown-item" href="#">Fantasia</a>
                 </div>
               </li>
             </ul>
@@ -67,16 +65,18 @@
         </div>
       </nav>
 
+<!-- carrusel de foto fantasía-->
+
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/img/indexIMG/1.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/img/fantasíaIMG/7.tiff" class="carrusel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/indexIMG/2.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/img/fantasíaIMG/8.webp" class="carrusel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/indexIMG/3.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/img/fantasíaIMG/9.webp" class="carrusel" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -88,10 +88,75 @@
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
+      
 
+<!--cartas para cada juego-->
+
+<div class="row mx-5 py-5">
+   
+  <div class= "col">
+
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1" src="./assets/img/fantasíaIMG/zelda.avif" alt="...">
+        <div class="card-header"> <h5>Juego Fantasía </h5> </div>
+        <div class="d-flex justify-content-around"><h6>$62.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">The Legend Of Zelda</h4>
+          <h6>Tears Of The Kingdom</h6>
+          <p class="card-text centra">Esta nueva aventura pretende llevarnos a las profundidades de un templo subterráneo, en donde un cadáver momificado de alguna forma toma vida, levantando así el castillo de Hyrule por los cielos.</p>
+        </div>
+      </div>
+  </div>
+
+  <div class= "col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img  class="card imagen-1"" src="./assets/img/fantasíaIMG/Fantasy7.jpeg" alt="...">
+        <div class="card-header"> <h5> Juego Fantasía </h5></div>
+        <div class="d-flex justify-content-around"><h6>$53.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">Final Fantasy VII</h4>
+          <h6>Remake Game</h6>
+          <p class="card-text centra">Cloud Strife, un mercenario que inicialmente se une al grupo ecoterrorista AVALANCHA para detener el control mundial de la corporación Shinra que está drenando la vida del planeta para usarla como fuente de energía.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class= "col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1"" src="./assets/img/fantasíaIMG/GODOFWAR.webp" alt="...">
+        <div class="card-header"> <h5> Juego Fantasía </h5></div>
+        <div class="d-flex justify-content-around"><h6>$55.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">God Of War</h4>
+          <h6>Ragnarök</h6>
+          <p class="card-text centra">Nos presenta una nueva historia en la que Kratos deberá enfrentarse a diversos enemigos de inspiración nórdica, explorando los mitos del Ragnarok, el apocalipsis que todo lo devorará según esta tradición del norte.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class= "col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1"" src="./assets/img/fantasíaIMG/LOL.jpeg" alt="...">
+        <div class="card-header"><h5>Juego Fantasía</h5></div>
+        <div class="d-flex justify-content-around"><h6>$48.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">League Of Legends </h4>
+          <h6>Free Game</h6>
+          <p class="card-text centra">Estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!--Pie de página-->
       <footer class="footer">
         <div class="container">
-            <div class="row">
+            <div class="row py-6">
                 <div class="col-md-4">
                     <h5>Contacto</h5>
                     <p><i class="fas fa-map-marker-alt"></i> Dirección: Av. O'Higgins 1234,Santiago, Chile</p>
@@ -102,9 +167,8 @@
                     <h5>Enlaces Rápidos</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Catálogo</a></li>
+                        <li><a href="#">Tienda</a></li>
                         <li><a href="#">Sobre Nosotros</a></li>
-                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -122,3 +186,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+        

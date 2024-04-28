@@ -8,6 +8,7 @@ i{
 
 h5{
     color: blueviolet;
+    color: rgb(161, 67, 243);
 }
 
 p{
@@ -33,10 +34,12 @@ footer{
 .navbar{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color:rgb(37, 0, 71) !important;
+background-color:rgb(76, 12, 135) !important;
 }
 
 .navbar-nav .nav-link {
     color: blueviolet !important;
+    color: rgb(174, 119, 225) !important;
 }
 
 .navbar-brand{
@@ -51,3 +54,37 @@ background-color:rgb(37, 0, 71) !important;
     margin-left: 2rem;
 }
 
+<<<<<<< Updated upstream
+=======
+.carrusel{
+
+    width: 1500px;
+    height: 500px;
+
+}
+
+.centra{
+
+    text-align: justify;
+}
+
+.card{
+    border-radius: 20px;
+    border-color: rgb(28, 135, 168);
+    
+}
+
+.imagen{
+
+    width: 289px;
+    height: 300px;
+
+}
+
+.imagen-1{
+
+    width: auto;
+    height: 390px;
+
+}
+>>>>>>> Stashed changes

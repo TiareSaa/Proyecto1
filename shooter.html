@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,26 +9,25 @@
   </head>
 <body>
 
+  <!--navbar-->
+
     <nav class="navbar navbar-expand-lg" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MegaGames</a>
+          <a href="http://127.0.0.1:5500/index.html"
+          class="navbar-brand" href="#">MegaGames</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio
+                <a href="http://127.0.0.1:5500/index.html"
+                class="nav-link active" href="#">Inicio
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Tienda</a>
-                <a href= "http://127.0.0.1:5500/tienda.html"
-                class="nav-link" href="#">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Asistencia</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Ofertas</a>
@@ -37,13 +35,12 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Casuales</a>
-                  <a class="dropdown-item" href="#">Terror</a>
-                  <a class="dropdown-item" href="#">Fantasia</a>
-                  <a class="dropdown-item" href="#">Deportes</a>
-                  <a class="dropdown-item" href="#">Disparos</a>
-                  <a class="dropdown-item" href="#">Fantasia</a>
-                  <a class="dropdown-item" href="#">Cartas</a>
+                  <a href="http://127.0.0.1:5500/terror.html"
+                  class="dropdown-item" href="#">Terror</a>
+                  <a href="http://127.0.0.1:5500/shooter.html"
+                  class="dropdown-item" href="#">Shooter</a>
+                  <a href="http://127.0.0.1:5500/fantasia.html" 
+                  class="dropdown-item" href="#">Fantasia</a>
                 </div>
               </li>
             </ul>
@@ -67,16 +64,18 @@
         </div>
       </nav>
 
+<!-- carrusel de foto shooter-->
+
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/img/indexIMG/1.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/img/shooterIMG/10.jpeg" class="carrusel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/indexIMG/2.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/img/shooterIMG/11.jpeg" class="carrusel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/img/indexIMG/3.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/img/shooterIMG/12.webp" class="carrusel" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -88,10 +87,77 @@
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
+      
 
+<!--cartas para cada juego-->
+
+<div class="row mx-5 py-5">
+   
+  <div class= "col">
+
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1"" src="./assets/img/shooterIMG/callofduty.png" alt="...">
+        <div class="card-header"> <h5>Juego Shooter</h5> </div>
+        <div class="d-flex justify-content-around"><h6>$67.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">Call Of Duty</h4>
+          <h6>Warzone</h6>
+          <p class="card-text centra">Un modo de juego que nos permitirá caer en una isla con otros 150 jugadores para comprobar quién es el último que queda en pie. Además del clásico estilo Battle Royale, Warzone también incluye un modo adicional llamado Plunder.</p>
+        </div>
+      </div>
+  </div>
+
+  <div class= "col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1"" src="./assets/img/shooterIMG/battlefield.webp" alt="...">
+        <div class="card-header"> <h5> Juego Shooter</h5></div>
+        <div class="d-flex justify-content-around"><h6>$48.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">Battlefield</h4>
+          <h6>2042</h6>
+          <p class="card-text centra">Marca el regreso a la emblemática guerra total de la franquicia. Adáptate y sobrevive con la ayuda de tu patrulla y un arsenal de vanguardia en campos de batalla en constante cambio. Con partidas de 128 jugadores, prepárate para una escala sin precedentes en entornos inmensos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class= "col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1"" src="./assets/img/shooterIMG/fornite.jpeg" alt="...">
+        <div class="card-header"> <h5> Juego Shooter</h5></div>
+        <div class="d-flex justify-content-around"><h6>$37.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">Fornite</h4>
+          <h6>Complete Edition
+
+          </h6>
+          <p class="card-text centra">Es un juego de tipo batalla real en el que compiten hasta cien jugadores en solitario, dúos, tríos o escuadrones. Los jugadores saltan de un autobús que cruza el mapa en el momento que deseen, y empiezan sin armas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class= "col">
+      <div class="card text-white bg-dark mb-3" style="max-width: 23rem;">
+        <img class="card imagen-1"" src="./assets/img/shooterIMG/valorant.jpeg" alt="...">
+        <div class="card-header"><h5>Juego Shooter</h5></div>
+        <div class="d-flex justify-content-around"><h6>$53.990</h6>
+          <button class="bg-black"><i class="fa-solid fa-cart-shopping"></i></button></div>
+        <div class="card-body">
+          <h4 class="card-title">Valorant</h4>
+          <h6>Complete Edition</h6>
+          <p class="card-text centra">Valorant es un hero shooter en primera persona ambientado en un futuro próximo. ​​Los jugadores asumen el control de agentes, personajes que provienen de una gran cantidad de países y culturas de todo el mundo.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!--Pie de página-->
       <footer class="footer">
         <div class="container">
-            <div class="row">
+            <div class="row py-6">
                 <div class="col-md-4">
                     <h5>Contacto</h5>
                     <p><i class="fas fa-map-marker-alt"></i> Dirección: Av. O'Higgins 1234,Santiago, Chile</p>
@@ -102,9 +168,8 @@
                     <h5>Enlaces Rápidos</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Catálogo</a></li>
+                        <li><a href="#">Tienda</a></li>
                         <li><a href="#">Sobre Nosotros</a></li>
-                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
